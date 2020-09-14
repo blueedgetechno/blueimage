@@ -1,0 +1,20 @@
+{
+  "name": "blueimage",
+  "main": "./lib/blueimage",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "blueimage:toggle"
+  },
+  "repository": "https://github.com/atom/blueimage",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
