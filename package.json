@@ -13,8 +13,11 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "colcade": "^0.2.0",
+    "magic-grid": "^3.2.4",
     "path": "^0.12.7",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-masonry-css": "^1.0.14"
   }
 }
