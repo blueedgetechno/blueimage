@@ -6,11 +6,11 @@
   display: flex;
   flex-direction: row;
   padding: 5px 2px;
-}
 
-.viewheader .icon {
-  margin: auto 4px auto 10px;
-  cursor: pointer;
+  .icon {
+    margin: auto 4px auto 5px;
+    cursor: pointer;
+  }
 }
 
 .display {
@@ -24,7 +24,6 @@
 
 .displaypictures {
   position: relative;
-  min-height: 500px;
 }
 
 .grid {
@@ -39,9 +38,66 @@
 .imagecontainer {
   width: 100%;
   padding: 3px;
+
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
 }
 
-.imagecontainer img {
-  width: 100%;
-  cursor: pointer;
+.search-filter {
+  position: relative;
+  vertical-align: middle;
+  width: 100px;
+  padding: 2px 5px;
+  margin: 0 5px;
+  height: 25px;
+  border-radius: 3px;
+  // border: 1px solid #181a1f;
+  background-color: #353b45;
+  z-index: 2;
+  cursor: default;
+}
+
+.service-options {
+  display: flex;
+  width: 100px;
+  margin-left: -5px;
+  flex-direction: column;
+  padding: 2px 0 4px 5px;
+  line-height: 20px;
+  transform-origin: top;
+  transform: scale(1,1);
+  border-radius: 0 0 10px 10px;
+  background: @app-background-color;
+  transition: 0.2s;
+
+  label input[type="checkbox"]{
+    transform: scale(0.8);
+    outline: none;
+  }
+}
+
+.dropped{
+  transform: scale(1,0);
+  transition: 0.2s;
+}
+
+.emptysearch{
+  display: flex;
+  padding: 50px 0;
+  line-height: 100px;
+  flex-direction: column;
+  align-items: center;
+
+  .icon::before{
+    font-size: 150px !important;
+    margin-left: -70px;
+  }
+}
+
+.loadmore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
