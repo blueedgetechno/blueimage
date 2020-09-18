@@ -6,7 +6,7 @@
 [![Follow me](https://img.shields.io/github/followers/blueedgetechno?label=follow%20me&style=social)](https://github.com/blueedgetechno)
 
 
-![overview](https://raw.githubusercontent.com/blueedgetechno/codeblue/master/img/blueimage.gif)
+![overview](https://raw.githubusercontent.com/blueedgetechno/blueimage/master/img/blueimage.gif)
 
 ### Search among different free image services and load them directly into atom
 
