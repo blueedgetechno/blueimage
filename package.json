@@ -2,19 +2,27 @@
   "name": "blueimage",
   "main": "./lib/blueimage",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "description": "Search from thousands of images and load them directly from atom into your project",
+  "keywords": [
+    "code",
+    "images",
+    "image",
+    "pics",
+    "photos",
+    "photo",
+    "pictures",
+    "search",
+    "online"
+  ],
   "activationCommands": {
     "atom-workspace": "blueimage:toggle"
   },
-  "repository": "https://github.com/atom/blueimage",
+  "repository": "https://github.com/blueedgetechno/blueimage",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "colcade": "^0.2.0",
-    "magic-grid": "^3.2.4",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
