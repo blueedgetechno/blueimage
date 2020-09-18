@@ -1,7 +1,7 @@
 {
   "name": "blueimage",
   "main": "./lib/blueimage",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Search from thousands of images and load them directly from atom into your project",
   "keywords": [
     "code",
